@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "back": "npm i && nodemon index.js --prefix back",
-    "front": "npm i && npm start --prefix front",
+    "back": "nodemon index.js --prefix back",
+    "front": "npm start --prefix front",
     "full": "concurrently \"npm run back\" \"npm run front\""
   },
   "repository": {
